@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan's Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Random Password Generator</h1><br>
+
+        <label>Enter number of characters (8-24):</label>
+        <input id="numOfChars" type="number"><br>
+
+        <label>Include uppercase?</label>
+        <input id="upperCheck" type="checkbox"><br>
+
+        <label>Include numbers?</label>
+        <input id="numberCheck" type="checkbox"><br>
+
+        <label>Include symbols?</label>
+        <input id="symbolCheck" type="checkbox"><br>
+        
+        <button id="genPassword" onclick="genPassword()">Generate</button><br>
+
+        <p id="result"></p>
+
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
